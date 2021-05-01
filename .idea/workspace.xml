@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57f259e2-d073-496f-9f38-19474675bb13" name="Default Changelist" comment="обновление">
+    <list default="true" id="57f259e2-d073-496f-9f38-19474675bb13" name="Default Changelist" comment="addendum Course author, &#10;The project performs, Curator">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +38,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619870328386</updated>
-      <workItem from="1619870329558" duration="1113000" />
+      <workItem from="1619870329558" duration="1588000" />
     </task>
     <task id="LOCAL-00001" summary="added Course author, The project performs,&#10;Curator">
       <created>1619870361022</created>
@@ -68,7 +68,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619871140028</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="addendum Course author, &#10;The project performs, Curator">
+      <created>1619871572290</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619871572290</updated>
+    </task>
+    <task id="LOCAL-00006" summary="addendum Course author, &#10;The project performs, Curator">
+      <created>1619871623805</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619871623805</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +103,7 @@
     <MESSAGE value="added Course author, The project performs,&#10;Curator" />
     <MESSAGE value="Update README.md" />
     <MESSAGE value="обновление" />
-    <option name="LAST_COMMIT_MESSAGE" value="обновление" />
+    <MESSAGE value="addendum Course author, &#10;The project performs, Curator" />
+    <option name="LAST_COMMIT_MESSAGE" value="addendum Course author, &#10;The project performs, Curator" />
   </component>
 </project>
