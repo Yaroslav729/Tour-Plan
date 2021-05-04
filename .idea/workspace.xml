@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e9863d5-b48f-47b1-81ff-6d1e802ceed7" name="Default Changelist" comment="added:gitignore.txt">
-      <change afterPath="$PROJECT_DIR$/sass/settings.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/style.sass" afterDir="false" />
+    <list default="true" id="deaa137b-5b5e-44ea-a41a-b3f07a109bc4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,72 +18,40 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1s4H7XkRuXVRCIq0strF70wglu2" />
+  <component name="ProjectId" id="1s6gp2FDMOjWZyGB21FGlSy1HjZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9e9863d5-b48f-47b1-81ff-6d1e802ceed7" name="Default Changelist" comment="" />
-      <created>1620124774825</created>
+      <changelist id="deaa137b-5b5e-44ea-a41a-b3f07a109bc4" name="Default Changelist" comment="" />
+      <created>1620198632894</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1620124774825</updated>
-      <workItem from="1620124776121" duration="953000" />
+      <updated>1620198632894</updated>
+      <workItem from="1620198634971" duration="2767000" />
+      <workItem from="1620213095327" duration="1621000" />
     </task>
-    <task id="LOCAL-00001" summary="added:gitignore.txt">
-      <created>1620125034716</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1620125034716</updated>
-    </task>
-    <task id="LOCAL-00002" summary="added:gitignore.txt">
-      <created>1620125119582</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1620125119582</updated>
-    </task>
-    <task id="LOCAL-00003" summary="added:gitignore.txt">
-      <created>1620125152367</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1620125152367</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added:gitignore.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="added:gitignore.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
