@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57f259e2-d073-496f-9f38-19474675bb13" name="Default Changelist" comment="addendum Course author, &#10;The project performs, Curator">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="ef223f88-0ee7-443a-93ef-a4d37eacbc0e" name="Default Changelist" comment="header &gt; header-top">
+      <change afterPath="$PROJECT_DIR$/.idea/Tour-Plan.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/horizontal-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/user-avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,14 +22,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1rvxO3PgGjObnXR3Vh6fu6aMHMO" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1s40vNctSdUl4x5gWe2pmm7OMiZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -33,56 +49,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="57f259e2-d073-496f-9f38-19474675bb13" name="Default Changelist" comment="" />
-      <created>1619870328386</created>
+      <changelist id="ef223f88-0ee7-443a-93ef-a4d37eacbc0e" name="Default Changelist" comment="" />
+      <created>1620116783718</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1619870328386</updated>
-      <workItem from="1619870329558" duration="1588000" />
+      <updated>1620116783718</updated>
+      <workItem from="1620116785084" duration="4777000" />
     </task>
-    <task id="LOCAL-00001" summary="added Course author, The project performs,&#10;Curator">
-      <created>1619870361022</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1619870361022</updated>
-    </task>
-    <task id="LOCAL-00002" summary="added Course author, The project performs,&#10;Curator">
-      <created>1619870472666</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1619870472666</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Update README.md">
-      <created>1619870921318</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1619870921318</updated>
-    </task>
-    <task id="LOCAL-00004" summary="обновление">
-      <created>1619871140028</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1619871140028</updated>
-    </task>
-    <task id="LOCAL-00005" summary="addendum Course author, &#10;The project performs, Curator">
-      <created>1619871572290</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1619871572290</updated>
-    </task>
-    <task id="LOCAL-00006" summary="addendum Course author, &#10;The project performs, Curator">
-      <created>1619871623805</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1619871623805</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,10 +73,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added Course author, The project performs,&#10;Curator" />
-    <MESSAGE value="Update README.md" />
-    <MESSAGE value="обновление" />
-    <MESSAGE value="addendum Course author, &#10;The project performs, Curator" />
-    <option name="LAST_COMMIT_MESSAGE" value="addendum Course author, &#10;The project performs, Curator" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="header &gt; header-top" />
+    <option name="LAST_COMMIT_MESSAGE" value="header &gt; header-top" />
   </component>
 </project>
