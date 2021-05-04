@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef223f88-0ee7-443a-93ef-a4d37eacbc0e" name="Default Changelist" comment="header &gt; header-top">
-      <change afterPath="$PROJECT_DIR$/.idea/Tour-Plan.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/horizontal-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/user-avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ef223f88-0ee7-443a-93ef-a4d37eacbc0e" name="Default Changelist" comment="create:header in index.html" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,8 +45,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620116783718</updated>
-      <workItem from="1620116785084" duration="4777000" />
+      <workItem from="1620116785084" duration="7006000" />
     </task>
+    <task id="LOCAL-00001" summary="header &gt; header-top">
+      <created>1620121955737</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620121955737</updated>
+    </task>
+    <task id="LOCAL-00002" summary="create:header in index.html">
+      <created>1620123874313</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620123874313</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,6 +81,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="header &gt; header-top" />
-    <option name="LAST_COMMIT_MESSAGE" value="header &gt; header-top" />
+    <MESSAGE value="create:header in index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="create:header in index.html" />
   </component>
 </project>
