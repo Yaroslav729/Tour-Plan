@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6ebdc3c-c93a-427b-9e29-56b40d3b14ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sass/blocks/_header.sass" afterDir="false" />
+    <list default="true" id="39bfffe1-d0ac-4637-9563-4c9589e946c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_variables.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/settings.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_settings.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_media.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_settings.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_settings.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_variables.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.css.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,13 +22,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1s7HEq8wbHmmLntS6Tt9qFawcgz" />
+  <component name="ProjectId" id="1sFCAnQrsg6qU1InndQrXUoHeFD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -39,27 +42,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b6ebdc3c-c93a-427b-9e29-56b40d3b14ee" name="Default Changelist" comment="" />
-      <created>1620216598683</created>
+      <changelist id="39bfffe1-d0ac-4637-9563-4c9589e946c6" name="Default Changelist" comment="" />
+      <created>1620458809590</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1620216598683</updated>
-      <workItem from="1620216600860" duration="4957000" />
+      <updated>1620458809590</updated>
+      <workItem from="1620458812169" duration="2624000" />
+      <workItem from="1620478031090" duration="10030000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
