@@ -71,6 +71,41 @@
     width: 100%
   .map
     width: 340px
+  .reviews
+    padding: 16px 0 70px
+    &__title
+      font-size: 30px
+      line-height: 38px
+      margin-bottom: 48px
+
+    &-slider
+      &__item
+        max-width: 580px
+        margin: 24px auto 0
+
+      &__avatar
+        margin-left: 2px
+        margin-bottom: 11px
+        margin-top: 22px
+
+      &__username
+        margin-top: 0
+
+      &__profile
+        margin-bottom: 27px
+
+
+      &__text
+        margin: auto 0 0 3px
+
+      &__button
+        top: 50%
+
+        &--next
+          right: 1px
+
+        &--prev
+          left: 1px
 
     &-description
       line-height: 16px
@@ -166,10 +201,28 @@
       flex-direction: column
       max-width: 576px
       width: 92%
+  .reviews
+    &-slider
+      &__item
+        padding: 0 30px 30px
+        &:after, &:before
+          display: none
+      &__button
+        top: 45px
+      &--prev
+        left: 50%
+        margin-left: -65px
+        transform: translate(-50%, 0)
+      &--next
+        left: 50%
+        margin-left: -65px
+        transform: translate(50%, 0)
+
+
 
 @media (max-width: 576px)
   .container
-    max-width: 320px
+    max-width: 420px
     width: 92%
 
   .hotel-slider
@@ -230,6 +283,21 @@
     height: 179px
     margin-bottom: 20px
 
+    &__button
+      &--next
+        width: 5px
+        height: 10px
+        right: 12px
+        background-image: url("../img/arrow_smal-next.svg")
+        background-size: 5px
+
+      &--prev
+        width: 5px
+        height: 10px
+        left: 12px
+        background-image: url("../img/arrow_smal-prev.svg")
+        background-size: 5px
+
   .hotel-description
     line-height: 16px
 
@@ -272,6 +340,29 @@
     height: 52px
     &__input
       padding-left: 21px
+
+  .reviews
+    &__title
+      font-size: 18px
+      line-height: 23px
+      margin-top: 25px
+      margin-bottom: 42px
+      padding: 0 15px 0
+
+    &-slider
+      &__avatar
+        margin-right: 8px
+        margin-bottom: 10px
+
+      &__text
+        text-align: left
+
+      &__button
+        &--prev
+          left: 34px
+
+        &--next
+          right: 38px
 
 
 
