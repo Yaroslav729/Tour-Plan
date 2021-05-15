@@ -1,6 +1,7 @@
 .reviews
-  padding: 40px 0 70px
-  &-title
+  padding: 10px 0 70px
+
+  &__title
     font-style: normal
     font-weight: bold
     font-size: 36px
@@ -8,17 +9,19 @@
     text-align: center
     text-transform: uppercase
     margin-bottom: 70px
+
   &-slider
     &__item
       position: relative
       display: flex
       flex-direction: column
       align-items: center
-      width: 730px
+      max-width: 730px
       margin: 45px auto 0
       background-color: #ffffff
       border-radius: 8px
       padding: 0 62px 30px
+
       &:before
         content: ''
         position: absolute
@@ -41,7 +44,7 @@
 
     &__button
       position: absolute
-      top: 50%
+      top: 46%
       transform: translateY(-50%)
       width: 30px
       height: 30px
@@ -52,12 +55,14 @@
       background-color: transparent
       cursor: pointer
       z-index: 99
+
       &--prev
         background-image: url("../img/arrow-prev-secondary.svg")
-        left: 0
+        left: 19px
+
       &--next
         background-image: url("../img/arrow-next-secondary.svg")
-        right: 0
+        right: 19px
 
     &__profile
       display: flex
@@ -65,12 +70,13 @@
       align-items: center
       margin-top: -45px
       margin-bottom: 30px
+
     &__avatar
       width: 90px
       height: 90px
       border-radius: 50%
       object-fit: cover
-      margin-bottom: 9px
+
     &__username
       font-style: normal
       font-weight: bold
@@ -78,15 +84,18 @@
       line-height: 15px
       color: $primary
       margin-bottom: 10px
+
     &__date
       font-style: normal
       font-weight: normal
       font-size: 10px
       line-height: 13px
-      margin-bottom: 4px
+      margin-bottom: -3px
+
     &__raiteng
       display: flex
       align-items: center
+
     &__text
       max-width: 537px
       font-style: normal
@@ -94,4 +103,4 @@
       font-size: 12px
       line-height: 160%
       text-align: justify
-      margin: auto
+      margin: auto 35px

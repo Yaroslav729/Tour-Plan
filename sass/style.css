@@ -687,10 +687,10 @@ img {
 .newsletter {
   position: relative;
   padding: 79px 0 67px 0;
-  background-image: url("../img/newsletter-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background: transparent;
 }
 .newsletter:before {
   content: "";
@@ -757,9 +757,9 @@ img {
 }
 
 .reviews {
-  padding: 40px 0 70px;
+  padding: 10px 0 70px;
 }
-.reviews-title {
+.reviews__title {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -773,7 +773,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 730px;
+  max-width: 730px;
   margin: 45px auto 0;
   background-color: #ffffff;
   border-radius: 8px;
@@ -801,7 +801,7 @@ img {
 }
 .reviews-slider__button {
   position: absolute;
-  top: 50%;
+  top: 46%;
   transform: translateY(-50%);
   width: 30px;
   height: 30px;
@@ -815,11 +815,11 @@ img {
 }
 .reviews-slider__button--prev {
   background-image: url("../img/arrow-prev-secondary.svg");
-  left: 0;
+  left: 19px;
 }
 .reviews-slider__button--next {
   background-image: url("../img/arrow-next-secondary.svg");
-  right: 0;
+  right: 19px;
 }
 .reviews-slider__profile {
   display: flex;
@@ -833,7 +833,6 @@ img {
   height: 90px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 9px;
 }
 .reviews-slider__username {
   font-style: normal;
@@ -848,7 +847,7 @@ img {
   font-weight: normal;
   font-size: 10px;
   line-height: 13px;
-  margin-bottom: 4px;
+  margin-bottom: -3px;
 }
 .reviews-slider__raiteng {
   display: flex;
@@ -861,7 +860,7 @@ img {
   font-size: 12px;
   line-height: 160%;
   text-align: justify;
-  margin: auto;
+  margin: auto 35px;
 }
 
 @media (max-width: 1199px) {
@@ -950,10 +949,46 @@ img {
   .map {
     width: 340px;
   }
-  .map-description {
+
+  .reviews {
+    padding: 16px 0 70px;
+  }
+  .reviews__title {
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 48px;
+  }
+  .reviews-slider__item {
+    max-width: 580px;
+    margin: 24px auto 0;
+  }
+  .reviews-slider__avatar {
+    margin-left: 2px;
+    margin-bottom: 11px;
+    margin-top: 22px;
+  }
+  .reviews-slider__username {
+    margin-top: 0;
+  }
+  .reviews-slider__profile {
+    margin-bottom: 27px;
+  }
+  .reviews-slider__text {
+    margin: auto 0 0 3px;
+  }
+  .reviews-slider__button {
+    top: 50%;
+  }
+  .reviews-slider__button--next {
+    right: 1px;
+  }
+  .reviews-slider__button--prev {
+    left: 1px;
+  }
+  .reviews-description {
     line-height: 16px;
   }
-  .map-info__space {
+  .reviews-info__space {
     margin-right: 6px;
   }
 
@@ -1058,10 +1093,30 @@ img {
     max-width: 576px;
     width: 92%;
   }
+
+  .reviews-slider__item {
+    padding: 0 30px 30px;
+  }
+  .reviews-slider__item:after, .reviews-slider__item:before {
+    display: none;
+  }
+  .reviews-slider__button {
+    top: 45px;
+  }
+  .reviews-slider--prev {
+    left: 50%;
+    margin-left: -65px;
+    transform: translate(-50%, 0);
+  }
+  .reviews-slider--next {
+    left: 50%;
+    margin-left: -65px;
+    transform: translate(50%, 0);
+  }
 }
 @media (max-width: 576px) {
   .container {
-    max-width: 320px;
+    max-width: 420px;
     width: 92%;
   }
 
@@ -1133,6 +1188,20 @@ img {
     height: 179px;
     margin-bottom: 20px;
   }
+  .hotel-slider__button--next {
+    width: 5px;
+    height: 10px;
+    right: 12px;
+    background-image: url("../img/arrow_smal-next.svg");
+    background-size: 5px;
+  }
+  .hotel-slider__button--prev {
+    width: 5px;
+    height: 10px;
+    left: 12px;
+    background-image: url("../img/arrow_smal-prev.svg");
+    background-size: 5px;
+  }
 
   .hotel-description {
     line-height: 16px;
@@ -1182,6 +1251,27 @@ img {
   }
   .subscribe__input {
     padding-left: 21px;
+  }
+
+  .reviews__title {
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 25px;
+    margin-bottom: 42px;
+    padding: 0 15px 0;
+  }
+  .reviews-slider__avatar {
+    margin-right: 8px;
+    margin-bottom: 10px;
+  }
+  .reviews-slider__text {
+    text-align: left;
+  }
+  .reviews-slider__button--prev {
+    left: 34px;
+  }
+  .reviews-slider__button--next {
+    right: 38px;
   }
 }
 
