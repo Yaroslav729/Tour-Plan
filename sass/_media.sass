@@ -9,6 +9,9 @@
         width: 100%
         height: 100%
         object-fit: cover
+  .card
+    width: 230px
+    height: 230px
 
 @media (max-width: 991px)
   .container,
@@ -72,7 +75,7 @@
   .map
     width: 340px
   .reviews
-    padding: 16px 0 70px
+    padding: 16px 0 41px
     &__title
       font-size: 30px
       line-height: 38px
@@ -137,8 +140,30 @@
     height: 55px
     margin-bottom: 10px
 
+  .activities
+    &-wrapper
+      flex-wrap: wrap
 
-@media (max-width: 768px)
+    &__card
+      margin-bottom: 20px
+
+    &__title
+      margin-bottom: 57px
+
+  .card
+    width: 339px
+    height: 255px
+
+    &__title
+      margin-bottom: 20px
+      margin-left: 3px
+      padding-right: 87px
+
+    &:nth-child(3)
+      padding-right: 38px
+
+
+@media (max-width: 767px)
   .container
     max-width: 576px
     width: 92%
@@ -202,8 +227,24 @@
   .newsletter
     &-wrapper
       flex-direction: column
+      align-items: flex-start
+      padding: 0 81px
       max-width: 576px
       width: 92%
+    &-title
+      display: flex
+      flex-direction: column
+      word-break: break-all
+
+  .activities
+    &-wrapper
+      flex-direction: column
+      align-items: center
+
+  .card
+    width: 100%
+    height: 255px
+
   .reviews
     &-slider
       &__item
@@ -239,11 +280,22 @@
   .newsletter
     padding: 76px 0 83px 0
 
+    &-wrapper
+      padding: 0
+
     &__title
       margin-bottom: 37px
 
   .subscribe
     width: 100%
+
+  .activities
+    padding-top: 40px
+    padding-bottom: 60px
+
+  .card
+    width: 100%
+    height: 255px
 
 @media (max-width: 320px)
   .container
@@ -331,10 +383,14 @@
   .newsletter
     padding: 75px 0
 
+    &-wrapper
+      padding-left: 5px
+
     &__title
       font-size: 20px
       line-height: 30px
-      margin: 2px 0 36px 8px
+      margin: 2px 0 39px 1px
+      padding-right: 10px
 
     &-title
 
@@ -375,6 +431,39 @@
 
         &--next
           right: 38px
+
+  .activities
+    &__title
+      font-size: 18px
+      line-height: 23px
+      margin-bottom: 37px
+
+  .card
+    width: 100%
+    height: 255px
+
+    &__title
+      margin-bottom: 20px
+      margin-left: 3px
+      padding-right: 30px
+
+  .amusement
+    &-golf
+      order: 3
+
+    &-trip
+      order: 2
+      margin-bottom: 28px
+
+    &-quest
+      order: 4
+
+    &-corner
+      order: 1
+        
+
+
+
 
 
 
