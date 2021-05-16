@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39bfffe1-d0ac-4637-9563-4c9589e946c6" name="Default Changelist" comment="create: added map in hotel section">
+    <list default="true" id="69fd9e73-97fb-4fcb-95cd-7cf37dc71adc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_hotel.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_hotel.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/activites.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/activites.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.css.map" afterDir="false" />
     </list>
@@ -20,14 +21,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1sFCAnQrsg6qU1InndQrXUoHeFD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1sfEkT68erliAR5kvuQs74Ib4UX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -41,60 +40,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="39bfffe1-d0ac-4637-9563-4c9589e946c6" name="Default Changelist" comment="" />
-      <created>1620458809590</created>
+      <changelist id="69fd9e73-97fb-4fcb-95cd-7cf37dc71adc" name="Default Changelist" comment="" />
+      <created>1621255386384</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1620458809590</updated>
-      <workItem from="1620458812169" duration="2624000" />
-      <workItem from="1620478031090" duration="10030000" />
-      <workItem from="1620779961562" duration="1009000" />
-      <workItem from="1620806260938" duration="25190000" />
+      <updated>1621255386384</updated>
+      <workItem from="1621255388437" duration="2923000" />
     </task>
-    <task id="LOCAL-00001" summary="create: slider">
-      <created>1620779152602</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1620779152602</updated>
-    </task>
-    <task id="LOCAL-00002" summary="create: slider amendment BAM">
-      <created>1620780893301</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1620780893301</updated>
-    </task>
-    <task id="LOCAL-00003" summary="create: added map in hotel section">
-      <created>1620821419198</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1620821419198</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="create: slider" />
-    <MESSAGE value="create: slider amendment" />
-    <MESSAGE value="create: slider amendment BAM" />
-    <MESSAGE value="create: added map in hotel section" />
-    <option name="LAST_COMMIT_MESSAGE" value="create: added map in hotel section" />
   </component>
 </project>

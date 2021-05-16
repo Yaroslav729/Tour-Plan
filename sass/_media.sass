@@ -76,6 +76,12 @@
     width: 340px
   .reviews
     padding: 16px 0 41px
+
+    &-slider
+      &__item
+        &:before, &:after
+          display: none
+
     &__title
       font-size: 30px
       line-height: 38px
@@ -157,7 +163,6 @@
     &__title
       margin-bottom: 20px
       margin-left: 3px
-      padding-right: 87px
 
     &:nth-child(3)
       padding-right: 38px
@@ -231,6 +236,7 @@
       padding: 0 81px
       max-width: 576px
       width: 92%
+
     &-title
       display: flex
       flex-direction: column
@@ -249,6 +255,7 @@
     &-slider
       &__item
         padding: 0 30px 30px
+
         &:after, &:before
           display: none
 
@@ -258,15 +265,16 @@
 
       &__button
         top: 45px
+
       &--prev
         left: 50%
         margin-left: -65px
         transform: translate(-50%, 0)
+
       &--next
         left: 50%
         margin-left: -65px
         transform: translate(50%, 0)
-
 
 
 @media (max-width: 576px)
@@ -402,6 +410,7 @@
     margin-bottom: 9px
     width: 280px
     height: 52px
+
     &__input
       padding-left: 21px
 
@@ -445,7 +454,6 @@
     &__title
       margin-bottom: 20px
       margin-left: 3px
-      padding-right: 30px
 
   .amusement
     &-golf
