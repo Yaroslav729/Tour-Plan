@@ -1125,6 +1125,9 @@ img {
   line-height: 15px;
   color: #bdbdbd;
 }
+.footer__br {
+  display: none;
+}
 
 @media (max-width: 1199px) {
   .container {
@@ -1904,6 +1907,9 @@ img {
     grid-row: 9;
     justify-content: flex-start;
     margin-top: 0;
+  }
+  .footer__br {
+    display: initial;
   }
 }
 
