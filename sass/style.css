@@ -1365,7 +1365,7 @@ img {
     margin-bottom: 39px;
   }
   .footer__ul-text {
-    margin-left: -37px;
+    margin-left: 3px;
   }
   .footer__social-network {
     grid-row: 1/2;
@@ -1800,7 +1800,7 @@ img {
     padding-top: 65px;
   }
   .footer-wrapper {
-    grid-template-columns: 100%;
+    grid-template-columns: repeat(1, 100%);
     grid-row-gap: 10px;
   }
   .footer__logo {
@@ -1812,6 +1812,10 @@ img {
   }
   .footer__ul-information {
     margin-left: 14px;
+  }
+  .footer__ul-text {
+    margin-left: -1px;
+    text-align: justify;
   }
   .footer__item--mb-2 {
     margin-bottom: 22px;
@@ -1876,6 +1880,7 @@ img {
   }
   .footer__icon-wrapper {
     min-width: 28px;
+    margin-right: 4px;
   }
   .footer__input {
     margin-top: 0;
@@ -1888,12 +1893,17 @@ img {
   .footer__button {
     order: 1;
   }
+  .footer__information {
+    margin-bottom: -57px;
+  }
   .footer__information-a {
     margin-right: -3px;
   }
-  .footer__company-icon {
-    width: 50px;
-    height: 50px;
+  .footer__company {
+    grid-column: 1;
+    grid-row: 9;
+    justify-content: flex-start;
+    margin-top: 0;
   }
 }
 
