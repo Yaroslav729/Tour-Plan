@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69fd9e73-97fb-4fcb-95cd-7cf37dc71adc" name="Default Changelist" comment="create: footer">
+    <list default="true" id="69fd9e73-97fb-4fcb-95cd-7cf37dc71adc" name="Default Changelist" comment="create: footer 320">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_footer.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_media.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.css.map" afterDir="false" />
     </list>
@@ -33,7 +33,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -52,7 +52,7 @@
       <workItem from="1621522567768" duration="13657000" />
       <workItem from="1621615134599" duration="4218000" />
       <workItem from="1621661386454" duration="35073000" />
-      <workItem from="1621743888880" duration="22352000" />
+      <workItem from="1621743888880" duration="36340000" />
     </task>
     <task id="LOCAL-00001" summary="create: amendment 23 lesson">
       <created>1621258748006</created>
@@ -82,7 +82,28 @@
       <option name="project" value="LOCAL" />
       <updated>1621780340503</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="create: footer desktop">
+      <created>1621786231474</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621786231474</updated>
+    </task>
+    <task id="LOCAL-00006" summary="create: footer 320">
+      <created>1621793126768</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621793126768</updated>
+    </task>
+    <task id="LOCAL-00007" summary="create: footer 320">
+      <created>1621795196352</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1621795196352</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +125,8 @@
     <MESSAGE value="create: amendment 23 lesson" />
     <MESSAGE value="create: footer HTML" />
     <MESSAGE value="create: footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="create: footer" />
+    <MESSAGE value="create: footer desktop" />
+    <MESSAGE value="create: footer 320" />
+    <option name="LAST_COMMIT_MESSAGE" value="create: footer 320" />
   </component>
 </project>
