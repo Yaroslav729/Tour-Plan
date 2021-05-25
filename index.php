@@ -17,7 +17,7 @@
     <header class="navbar navbar--mobile_fixed">
       <div class="container">
         <div class="navbar-top">
-          <a href="index.html" class="logo">
+          <a href="index.php" class="logo">
             <img src="img/horizontal-logo.svg" alt="logo: Best Tour Plan" class="logo__imag">
           </a>
           <form action="#" class="search navbar__search navbar__search--mobile_hidden">
@@ -341,7 +341,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-wrapper">
-          <a href="index.html" class="logo footer__logo">
+          <a href="index.php" class="logo footer__logo">
             <img src="img/vertical-logo.svg" alt="Logo: Best Tour Plan">
           </a>
           <div class="footer__list footer__categories">
@@ -426,11 +426,11 @@
           <!-- /.footer__contact-details -->
           <div class="footer__contact-form">
             <h3 class="footer__title footer__title--mb-4">Send us a message</h3>
-            <form action="#" class="footer__form">
+            <form action="send.php" class="footer__form" method="post">
 
-              <input type="text" class="input footer__input" placeholder="Your Full Name">
-              <input type="text" class="input footer__input" placeholder="Phone Number">
-              <textarea cols="30" rows="10" placeholder="Message" class="footer__message"></textarea>
+              <input type="text" class="input footer__input" placeholder="Your Full Name" name="name">
+              <input type="text" class="input footer__input" placeholder="Phone Number" name="phone">
+              <textarea placeholder="Message" class="footer__message" name="message"></textarea>
 
               <button class="button footer__button" type="submit">Send</button>
               <span class="footer__info">* Required Fields</span>
