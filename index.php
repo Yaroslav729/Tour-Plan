@@ -199,9 +199,9 @@
           subscribe to our
           <span class="newsletter-title__strong">Newsletter</span>
         </h2>
-        <form action="#" class="subscribe newsletter__subscribe">
+        <form action="send.php" class="subscribe newsletter__subscribe" method="post">
           <label>
-            <input type="text" class="subscribe__input" placeholder="Your email address">
+            <input type="text" class="subscribe__input" placeholder="Your email address" name="email">
           </label>
           <button class="subscribe__button">Send</button>
         </form>
@@ -430,7 +430,7 @@
 
               <input type="text" class="input footer__input" placeholder="Your Full Name" name="name">
               <input type="text" class="input footer__input" placeholder="Phone Number" name="phone">
-              <textarea placeholder="Message" class="footer__message" name="message"></textarea>
+              <textarea placeholder="Message" class="footer__message" name="massage"></textarea>
 
               <button class="button footer__button" type="submit">Send</button>
               <span class="footer__info">* Required Fields</span>

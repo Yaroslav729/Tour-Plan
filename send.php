@@ -8,15 +8,17 @@ require 'phpmailer/Exception.php';
 $name = $_POST['name'];
 $phone = $_POST['phone'];
 $massage = $_POST['massage'];
-
+$email = $_POST['email'];
 
 // Формирование самого письма
 $title = "Новое обращение Best Tour Plan";
 $body = "
-<h2>Новое обрфщение</h2>
-<b>Имя:</b> $name<br>
+<h2>Footer</h2>
+<b>Имя:</b> $name<br><br>
 <b>Телефон:</b> $phone<br><br>
-<b>Сообщение:</b><br>$massage
+<b>Сообщение:</b><br>$massage<br>
+<h2>Newsletter</h2>
+<b>email address</b><br>$email <br>
 ";
 
 // Настройки PHPMailer
@@ -25,19 +27,19 @@ try {
     $mail->isSMTP();
     $mail->CharSet = "UTF-8";
     $mail->SMTPAuth   = true;
-    $mail->SMTPDebug = 2;
+//    $mail->SMTPDebug = 2;
     $mail->Debugoutput = function($str, $level) {$GLOBALS['status'][] = $str;};
 
     // Настройки вашей почты
-    $mail->Host       = 'smtp.yandex.ru'; // SMTP сервера вашей почты
-    $mail->Username   = 'company-rosstan@yandex.ru'; // Логин на почте
-    $mail->Password   = 'D1a6r7k3n8e4s3S-.'; // Пароль на почте
+    $mail->Host       = 'smtp.gmail.com'; // SMTP сервера вашей почты
+    $mail->Username   = 'citywindows29@gmail.com'; // Логин на почте
+    $mail->Password   = 'D1a6r7k3n8e4s3s'; // Пароль на почте
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
-    $mail->setFrom('company-rosstan@yandex.ru', 'company-rosstan'); // Адрес самой почты и имя отправителя
+    $mail->setFrom('citywindows29@gmail.com', 'Ярослав'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
-    $mail->addAddress('sahagolovanov007@gmail.com');
+    $mail->addAddress('company-rosstan@yandex.ru');
 
 // Отправка сообщения
     $mail->isHTML(true);
@@ -54,4 +56,4 @@ try {
 }
 
 // Отображение результата
-echo json_encode(["result" => $result, "resultfile" => $rfile, "status" => $status]);
+header('Location: thankyou.html');
