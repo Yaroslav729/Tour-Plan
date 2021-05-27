@@ -427,6 +427,7 @@ img {
   height: 100%;
   border: none;
   background-color: #ec1f46;
+  cursor: pointer;
 }
 
 .user {
@@ -689,6 +690,20 @@ img {
   overflow: hidden;
 }
 
+.thankyou-button {
+  min-height: 35px;
+  min-width: 120px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  border-radius: 4px;
+  background-color: #ec1f46;
+  margin-top: 7px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
 .newsletter {
   font-family: "Mulish", sans-serif;
   position: relative;
@@ -757,6 +772,7 @@ img {
   color: #ffffff;
   font-size: 12px;
   line-height: 15.06px;
+  cursor: pointer;
 }
 
 .reviews {
@@ -1029,16 +1045,11 @@ img {
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
+  margin-left: 13px;
 }
 .footer__information {
   margin-left: -2px;
   margin-bottom: 20px;
-}
-.footer__information-a {
-  margin-right: 12px;
-}
-.footer__information-a:nth-child(3) {
-  margin-right: 0;
 }
 .footer__title {
   font-style: normal;
@@ -1091,6 +1102,7 @@ img {
 .footer__link {
   text-decoration: none;
   color: inherit;
+  margin-right: 12px;
 }
 .footer__input {
   background-color: #ffffff;
@@ -1124,6 +1136,7 @@ img {
   background-color: #ec1f46;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 }
 .footer__info {
   font-style: normal;
@@ -1303,6 +1316,7 @@ img {
   .hotel {
     padding-top: 15px;
     padding-bottom: 56px;
+    margin-bottom: 4px;
   }
   .hotel-info__space {
     margin-right: 3px;
@@ -1330,7 +1344,7 @@ img {
   }
 
   .reviews {
-    padding: 16px 0 41px;
+    padding: 15px 0 41px;
   }
   .reviews-slider__item:before, .reviews-slider__item:after {
     display: none;
@@ -1358,6 +1372,7 @@ img {
   }
   .reviews-slider__date {
     margin-left: 3px;
+    margin-bottom: -3px;
   }
   .reviews-slider__text {
     margin: auto 0 0 3px;
@@ -1384,7 +1399,7 @@ img {
   }
 
   .rating {
-    padding-top: 4px;
+    padding-top: 2px;
   }
 
   .booking {
@@ -1395,13 +1410,13 @@ img {
     padding: 81px 0 67px 0;
   }
   .newsletter__title {
-    margin: 13px 0 26px 0;
+    margin: 12px 0 26px 0;
   }
 
   .subscribe {
     width: 415px;
     height: 55px;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
   }
   .subscribe__input {
     padding-left: 29px;
@@ -1426,7 +1441,7 @@ img {
   }
   .card__title {
     margin-bottom: 20px;
-    margin-left: 3px;
+    margin-left: 1px;
   }
   .card:nth-child(3) {
     padding-right: 38px;
@@ -1452,6 +1467,33 @@ img {
     justify-content: flex-end;
     margin-right: 0;
     margin-top: 14px;
+  }
+  .footer__link {
+    margin-right: 12px;
+  }
+  .footer__ul-text {
+    margin-bottom: 19px;
+  }
+  .footer__ul-information {
+    margin-left: 12px;
+  }
+  .footer__input {
+    padding-top: 3px;
+    padding-left: 23px;
+  }
+  .footer__title--mb-4 {
+    margin-left: 0;
+  }
+  .footer__contact-form {
+    margin-left: 0;
+  }
+  .footer__message {
+    padding: 18px 22px;
+  }
+  .footer__button {
+    padding-top: 21px;
+    padding-right: 20px;
+    margin-right: 281px;
   }
 }
 @media (max-width: 767px) {
@@ -1494,7 +1536,7 @@ img {
   .navbar-bottom--visible {
     display: block;
     overflow: auto;
-    height: 100%;
+    height: 90%;
   }
   .navbar-menu {
     flex-direction: column;
@@ -1881,7 +1923,7 @@ img {
   }
 
   .newsletter {
-    padding: 73px 0;
+    padding: 70px 0;
   }
   .newsletter-wrapper {
     padding-left: 5px;
@@ -1911,7 +1953,7 @@ img {
     line-height: 23px;
     margin-top: 25px;
     margin-bottom: 42px;
-    padding: 0 15px 0;
+    padding: 4px 15px 0;
   }
   .reviews-slider__avatar {
     margin-right: 8px;
@@ -1937,7 +1979,7 @@ img {
   .activities__title {
     font-size: 18px;
     line-height: 14px;
-    margin-bottom: 40px;
+    margin-bottom: 42px;
   }
 
   .card {
@@ -1945,7 +1987,7 @@ img {
     height: 255px;
   }
   .card__title {
-    margin-left: 3px;
+    margin-left: 0;
   }
 
   .amusement-golf {
@@ -1968,6 +2010,7 @@ img {
   .footer-wrapper {
     grid-template-columns: 1fr;
     grid-row-gap: 10px;
+    grid-column-gap: 0;
   }
   .footer__logo {
     margin-bottom: -10px;
@@ -1978,6 +2021,7 @@ img {
   }
   .footer__ul-information {
     margin-top: 0;
+    margin-left: -2px;
   }
   .footer__ul-text {
     margin-left: -1px;
@@ -2025,18 +2069,18 @@ img {
     margin-top: 0;
   }
   .footer__link {
-    margin-right: 18px;
-    margin-left: -6px;
+    margin-right: 11px;
+    margin-left: -3px;
   }
   .footer__contact-details {
-    width: 105%;
+    width: 95%;
     margin-bottom: 24px;
   }
   .footer__contact-form {
     width: 111%;
   }
   .footer__message {
-    flex-basis: 97%;
+    flex-basis: 90%;
     padding: 18px 19px;
     margin-bottom: 17px;
   }
@@ -2053,18 +2097,23 @@ img {
     margin-top: 0;
     padding-top: 4px;
     padding-right: 0;
-    flex-basis: 97%;
+    flex-basis: 90%;
   }
   .footer__info {
     flex-basis: 100%;
-    margin-bottom: 10px;
-    margin-left: -4px;
+    margin-bottom: 14px;
+    margin-left: 0;
   }
   .footer__button {
     order: 1;
+    padding-top: 19px;
   }
   .footer__information-a {
-    margin-right: -3px;
+    margin-right: 2px;
+    margin-left: 0;
+  }
+  .footer__information-b {
+    margin-right: -10px;
   }
   .footer__company {
     grid-column: 1;

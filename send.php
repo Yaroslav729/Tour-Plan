@@ -11,15 +11,41 @@ $massage = $_POST['massage'];
 $email = $_POST['email'];
 
 // Формирование самого письма
-$title = "Новое обращение Best Tour Plan";
-$body = "
-<h2>Footer</h2>
-<b>Имя:</b> $name<br><br>
-<b>Телефон:</b> $phone<br><br>
-<b>Сообщение:</b><br>$massage<br>
-<h2>Newsletter</h2>
-<b>email address</b><br>$email <br>
-";
+if (count($_POST) == 3) {
+    $name = $_POST['name'];
+    $phone = $_POST['phone'];
+    $message = $_POST['message'];
+
+    $title = "Новое обращение Best Tour Plan";
+    $body = "
+    <h2>Новое обращение</h2>
+    <b>Имя:</b> $name<br>
+    <b>Телефон:</b> $phone<br><br>
+    <b>Сообщение:</b><br>$message
+    ";
+} else if (count($_POST) == 1) {
+    $email = $_POST['email'];
+
+    $title = "Новое обращение Best Tour Plan";
+    $body = "
+    <h2>Новая подписка с адреса</h2>
+    <b>E-mail:</b> $email<br>
+    ";
+} else if (count($_POST) == 4) {
+    $name = $_POST['name'];
+    $phone = $_POST['phone'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+
+    $title = "Новое обращение Best Tour Plan";
+    $body = "
+    <h2>Новое обращение</h2>
+    <b>Имя:</b> $name<br>
+    <b>Телефон:</b> $phone<br><br>
+    <b>E-mail:</b> $email<br>
+    <b>Сообщение:</b><br>$message
+    ";
+}
 
 // Настройки PHPMailer
 $mail = new PHPMailer\PHPMailer\PHPMailer();

@@ -428,9 +428,9 @@
             <h3 class="footer__title footer__title--mb-4">Send us a message</h3>
             <form action="send.php" class="footer__form" method="post">
 
-              <input type="text" class="input footer__input" placeholder="Your Full Name" name="name">
-              <input type="text" class="input footer__input" placeholder="Phone Number" name="phone">
-              <textarea placeholder="Message" class="footer__message" name="massage"></textarea>
+              <input type="text" class="input footer__input" placeholder="Your Full Name*" name="name">
+              <input type="text" class="input footer__input" placeholder="Phone Number*" name="phone">
+              <textarea placeholder="Message*" class="footer__message" name="message"></textarea>
 
               <button class="button footer__button" type="submit">Send</button>
               <span class="footer__info">* Required Fields</span>
@@ -441,7 +441,7 @@
             <ul class="footer__ul footer__ul-information">
               <li class="footer__information-a"><a href="#" class="footer__link">Disclaimer</a></li>
               <li class="footer__information-a"><a href="#" class="footer__link">Conditions of use</a></li>
-              <li class="footer__information-a"><a href="#" class="footer__link">Cancellation policy</a></li>
+              <li class="footer__information-b"><a href="#" class="footer__link">Cancellation policy</a></li>
             </ul>
           </div>
           <div class="footer__company">
