@@ -689,6 +689,20 @@ img {
   overflow: hidden;
 }
 
+.thankyou-button {
+  min-height: 35px;
+  min-width: 120px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  border-radius: 4px;
+  background-color: #ec1f46;
+  margin-top: 7px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
 .newsletter {
   font-family: "Mulish", sans-serif;
   position: relative;
