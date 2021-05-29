@@ -463,7 +463,7 @@
           <img src="img/close.svg" alt="icon: close">
         </a>
         <div class="modal__contact-form">
-          <h3 class="modal__title footer__title--mb-4">Booking</h3>
+          <h3 class="modal__title">Booking</h3>
           <form action="send.php" class="form" method="post">
 
             <input type="text" class="input modal__input" placeholder="Your Full Name*" name="name">

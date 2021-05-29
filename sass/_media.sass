@@ -587,15 +587,19 @@
 
   .modal
     &__dialog
+      overflow: auto
+      max-height: 90%
       min-width: 450px
       padding: 33px 45px
-      top: 59%
+      top: 50%
+      z-index: 200
 
     &__info
       margin-bottom: 10px
 
   .button
     order: 2
+
 
 
 @media (max-width: 576px)
