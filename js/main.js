@@ -39,9 +39,9 @@ $(document).ready(function () {
 
     $('.newsletter').parallax({imageSrc: './img/newsletter-bg.jpg'});
 
-    var menuButton = $(".menu-button");
-    menuButton.on("click", function () {
-        $(".navbar-button").toggleClass("navbar-button--visible");
+    var menuButton = document.querySelector(".menu-button");
+    menuButton.addEventListener("click", function () {
+        document.querySelector(".navbar-bottom").classList.toggle('navbar-bottom--visible')
     });
 
     var modalButton = $("[data-toggle=modal]");
