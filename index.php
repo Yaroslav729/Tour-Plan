@@ -180,7 +180,7 @@
                 </a>
               </div>
               <!-- /.booking__call-center -->
-              <button class="button booking__button">View Other Options</button>
+              <button data-toggle='modal' data-href="#booking-modal" class="button booking__button" type="submit">View Other Options</button>
             </div>
             <!-- /.booking -->
             <div class="map">
@@ -430,7 +430,7 @@
 
               <input type="text" class="input footer__input" placeholder="Your Full Name*" name="name">
               <input type="text" class="input footer__input" placeholder="Phone Number*" name="phone">
-              <textarea placeholder="Message*" class="footer__message" name="message"></textarea>
+              <textarea placeholder="Message*" class="message footer__message" name="message"></textarea>
 
               <button class="button footer__button" type="submit">Send</button>
               <span class="footer__info">* Required Fields</span>
@@ -455,6 +455,31 @@
       <!-- /.container -->
     </footer>
     <!-- /.footer -->
+    <div class="modal" id="booking-modal">
+      <div class="modal__overlay"></div>
+      <!-- /.modal__overlay -->
+      <div class="modal__dialog">
+        <a href="#" class="modal__close">
+          <img src="img/close.svg" alt="icon: close">
+        </a>
+        <div class="modal__contact-form">
+          <h3 class="modal__title footer__title--mb-4">Booking</h3>
+          <form action="send.php" class="form" method="post">
+
+            <input type="text" class="input modal__input" placeholder="Your Full Name*" name="name">
+            <input type="text" class="input modal__input" placeholder="Phone Number*" name="phone">
+            <input type="text" class="input modal__input" placeholder="Email*" name="email">
+            <textarea placeholder="Message" class="message modal__message" name="message"></textarea>
+
+            <button class="button modal__button" type="submit">Send</button>
+            <span class="modal__info">* Required Fields</span>
+          </form>
+        </div>
+        <!-- /.modal__dialog -->
+      </div>
+      <!-- /.modal -->
+    </div>
+    <!-- /.modal -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.5.0/parallax.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>

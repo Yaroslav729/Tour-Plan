@@ -157,7 +157,7 @@
   .hotel
     padding-top: 15px
     padding-bottom: 56px
-    margin-bottom: 4px
+    margin-bottom: 0
 
     &-info
       &__space
@@ -174,6 +174,9 @@
       flex-direction: row
   .booking
     width: 340px
+    &__call
+      &-center
+        margin-bottom: 11px
 
   .hotel-slider
     width: 100%
@@ -300,7 +303,7 @@
       margin-top: 14px
 
     &__link
-      margin-right: 12px
+      margin-right: 10px
 
     &__ul
       &-text
@@ -328,6 +331,10 @@
       padding-top: 21px
       padding-right: 20px
       margin-right: 281px
+
+  .modal
+    &__dialog
+      padding: 33px 50px
 
 @media (max-width: 767px)
   .container
@@ -578,6 +585,18 @@
     &__form
       justify-content: flex-start
 
+  .modal
+    &__dialog
+      min-width: 450px
+      padding: 33px 45px
+      top: 59%
+
+    &__info
+      margin-bottom: 10px
+
+  .button
+    order: 2
+
 
 @media (max-width: 576px)
   .container
@@ -653,6 +672,12 @@
       &-form
         width: 113%
 
+  .modal
+    &__dialog
+      min-width: 285px
+      padding: 33px 25px
+      top: 55%
+
 @media (max-width: 320px)
   .container
     max-width: 282px
@@ -705,7 +730,7 @@
 
   .hotel-slider
     height: 179px
-    margin-bottom: 20px
+    margin-bottom: 24px
 
     &__button
       &--next
@@ -735,6 +760,16 @@
 
   .booking
     margin-bottom: 20px
+
+    &__info
+      margin-bottom: 15px
+
+    &__text
+      margin-top: 2px
+
+    &__pricetag
+      margin-bottom: -6px
+      margin-left: 2px
 
     &__per-room
       margin-bottom: -4px
@@ -955,6 +990,11 @@
 
     &__br
       display: initial
+
+  .modal
+    &__dialog
+      min-width: 281px
+
 
 
 
