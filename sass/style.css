@@ -792,10 +792,8 @@ img {
   width: 388px;
   height: 55px;
   border-radius: 4px;
-  overflow: hidden;
 }
 .subscribe__input {
-  position: absolute;
   width: 100%;
   height: 100%;
   border: none;
@@ -2240,10 +2238,10 @@ img {
     margin-bottom: 24px;
   }
   .footer__contact-form {
-    width: 111%;
+    width: 100%;
   }
   .footer__message {
-    flex-basis: 90%;
+    flex-basis: 100%;
     padding: 18px 19px;
     margin-bottom: 17px;
   }
@@ -2258,11 +2256,12 @@ img {
   }
   .footer__input {
     margin-top: 0;
+    margin-right: 0;
     padding-top: 4px;
     padding-right: 0;
   }
   .footer__input-group {
-    flex-basis: 90%;
+    flex-basis: 100%;
   }
   .footer__info {
     flex-basis: 100%;

@@ -15,12 +15,6 @@ $(document).ready(function () {
         }
     });
 
-    $(document).keydown(function(e){
-        if (e.keyCode === 27 ) {
-            closeModal();
-        }
-    });
-
     var reviewsSwiper = new Swiper('.reviews-slider', {
         // Optional parameters
         loop: true,
@@ -39,9 +33,9 @@ $(document).ready(function () {
 
     $('.newsletter').parallax({imageSrc: './img/newsletter-bg.jpg'});
 
-    var menuButton = $(".menu-button");
-    menuButton.on("click", function () {
-        $(".navbar-button").toggleClass("navbar-button--visible");
+    var menuButton = document.querySelector(".menu-button");
+    menuButton.addEventListener("click", function () {
+        document.querySelector(".navbar-bottom").classList.toggle('navbar-bottom--visible')
     });
 
     var modalButton = $("[data-toggle=modal]");
@@ -66,6 +60,13 @@ $(document).ready(function () {
         modalOverlay.removeClass("modal__overlay--visible");
         modalDialog.removeClass("modal__dialog--visible");
     }
+
+    $(document).keydown(function(e){
+        if (e.keyCode === 27 ) {
+            closeModal();
+        }
+    });
+
 
     // Обработка форм
     $(".form").each(function() {
