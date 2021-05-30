@@ -55,7 +55,7 @@
 
   &__form
     display: flex
-    align-items: center
+    align-items: stretch
     justify-content: space-between
     flex-wrap: wrap
 
@@ -145,8 +145,10 @@
     margin-right: 12px
 
   &__input
-    flex-basis: 47%
-    margin-bottom: 15px
+    width: 100%
+    &-group
+      flex-basis: 47%
+      margin-bottom: 15px
 
   &__message
     flex-basis: 100%
@@ -159,6 +161,7 @@
     font-weight: bold
     font-size: 12px
     line-height: 15px
+    margin-top: 19px
     color: $footer-text-color
 
   &__br

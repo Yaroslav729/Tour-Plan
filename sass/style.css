@@ -395,6 +395,12 @@ img {
   flex-wrap: wrap;
 }
 
+.invalid {
+  color: #ec1f46;
+  border-bottom: 1px solid #ec1f46;
+  font-size: 12px;
+}
+
 .navbar {
   background-color: #ffffff;
 }
@@ -1058,7 +1064,7 @@ img {
 }
 .footer__form {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -1144,6 +1150,9 @@ img {
   margin-right: 12px;
 }
 .footer__input {
+  width: 100%;
+}
+.footer__input-group {
   flex-basis: 47%;
   margin-bottom: 15px;
 }
@@ -1158,6 +1167,7 @@ img {
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
+  margin-top: 19px;
   color: #bdbdbd;
 }
 .footer__br {
@@ -1222,12 +1232,15 @@ img {
 }
 .modal__input {
   width: 100%;
-  margin-bottom: 15px;
+  margin-top: 15px;
 }
 .modal__message {
   width: 100%;
   min-height: 123px;
-  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.modal__button {
+  margin-top: 15px;
 }
 .modal__info {
   font-style: normal;
@@ -1282,8 +1295,8 @@ img {
     grid-template-columns: 10% 10% 20% 20% 20% 1fr;
     grid-row-gap: 40px;
   }
-  .footer__input {
-    flex-basis: 100%;
+  .footer__input-group {
+    flex-basis: 84%;
   }
   .footer__logo {
     grid-row: 1/2;
@@ -1587,6 +1600,10 @@ img {
     padding-top: 3px;
     padding-left: 23px;
   }
+  .footer__input-group {
+    flex-basis: 40%;
+    margin-right: 27px;
+  }
   .footer__title--mb-4 {
     margin-left: 0;
   }
@@ -1776,6 +1793,9 @@ img {
     grid-template-columns: 1fr;
     grid-row-gap: 10px;
   }
+  .footer__link {
+    margin-right: 11px;
+  }
   .footer-logo {
     grid-row: 1;
     grid-column: 1;
@@ -1803,7 +1823,7 @@ img {
   .footer__text {
     margin-left: 0;
   }
-  .footer__input {
+  .footer__input-group {
     flex-basis: 100%;
     margin-right: 0;
   }
@@ -1821,6 +1841,7 @@ img {
   }
   .footer__ul-information {
     margin-bottom: 0;
+    margin-left: 0;
   }
   .footer__ul-text {
     margin-left: 0;
@@ -2239,12 +2260,15 @@ img {
     margin-top: 0;
     padding-top: 4px;
     padding-right: 0;
+  }
+  .footer__input-group {
     flex-basis: 90%;
   }
   .footer__info {
     flex-basis: 100%;
     margin-bottom: 14px;
     margin-left: 0;
+    margin-top: 0;
   }
   .footer__button {
     order: 1;

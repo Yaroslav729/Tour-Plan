@@ -39,9 +39,9 @@ $(document).ready(function () {
 
     $('.newsletter').parallax({imageSrc: './img/newsletter-bg.jpg'});
 
-    var menuButton = document.querySelector(".menu-button");
-    menuButton.addEventListener("click", function () {
-        document.querySelector(".navbar-bottom").classList.toggle('navbar-bottom--visible')
+    var menuButton = $(".menu-button");
+    menuButton.on("click", function () {
+        $(".navbar-button").toggleClass("navbar-button--visible");
     });
 
     var modalButton = $("[data-toggle=modal]");
@@ -66,4 +66,31 @@ $(document).ready(function () {
         modalOverlay.removeClass("modal__overlay--visible");
         modalDialog.removeClass("modal__dialog--visible");
     }
+
+    // Обработка форм
+    $(".form").each(function() {
+        $(this).validate({
+            errorClass: "invalid",
+            messages: {
+                name: {
+                    required: "Please specify your name",
+                    minlength: "The name must be at least 2 letters"
+                },
+                email: {
+                    required: "We need your email address to contact you",
+                    email: "Your email address format of name@domain.com"
+                },
+                phone: {
+                    required: "Please enter your phone number",
+                    minlength: "Your phone number must be 11 digits long"
+                }
+            }
+        })
+    });
+
+    $(document).ready(function() {
+        $(".phone").mask("+7 (999) 999-99-99");
+    });
+
+    AOS.init();
 });
