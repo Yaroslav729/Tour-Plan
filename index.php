@@ -10,6 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&family=Nunito:wght@400;600;700;800&display=swap"
       rel="stylesheet">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="sass/style.css">
     <script src="https://api-maps.yandex.ru/2.0-stable/?apikey=71043a32-b9c1-4836-a550-d1e4d015ce73&load=package.standard&lang=ru-RU"></script>
   </head>
@@ -62,13 +64,13 @@
                 </button>
               </form>
             </li>
-            <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">All Deals</a></li>
-            <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">Hotels</a></li>
-            <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">Activities</a></li>
-            <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">Hotel Day Packages</a></li>
-            <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">Restaurants</a></li>
-            <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">Events</a></li>
-            <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">Rodrigues</a></li>
+            <li class="navbar-menu__item hvr-float-shadow"><a href="#" class="navbar-menu__link">All Deals</a></li>
+            <li class="navbar-menu__item hvr-float-shadow"><a href="#" class="navbar-menu__link">Hotels</a></li>
+            <li class="navbar-menu__item hvr-float-shadow"><a href="#" class="navbar-menu__link">Activities</a></li>
+            <li class="navbar-menu__item hvr-float-shadow"><a href="#" class="navbar-menu__link">Hotel Day Packages</a></li>
+            <li class="navbar-menu__item hvr-float-shadow"><a href="#" class="navbar-menu__link">Restaurants</a></li>
+            <li class="navbar-menu__item hvr-float-shadow"><a href="#" class="navbar-menu__link">Events</a></li>
+            <li class="navbar-menu__item hvr-float-shadow"><a href="#" class="navbar-menu__link">Rodrigues</a></li>
           </ul>
         </div>
         <!-- /.container -->
@@ -310,24 +312,24 @@
       <div class="container">
         <h2 class="activities__title">Other Activities</h2>
         <div class="activities-wrapper">
-          <div class="card activities__card amusement-corner">
+          <div class="card activities__card amusement-corner" data-aos="fade-up" data-aos-duration="800">
             <img src="img/card/activity-1.jpg" alt="The curious corner of chamarel" class="card__image">
             <h3 class="card__title">The curious corner of&nbsp;chamarel</h3>
             <button data-toggle="modal" class="card__button">Book Now</button>
           </div>
           <!-- /.card-->
-          <div class="card activities__card amusement-golf">
+          <div class="card activities__card amusement-golf" data-aos="fade-up" data-aos-duration="1600">
             <img src="img/card/activity-2.jpg" alt="Gymkhana club golf course" class="card__image">
             <h3 class="card__title">Gymkhana club golf course</h3>
             <button data-toggle="modal" class="card__button">Book Now</button>
           </div>
           <!-- /.card-->
-          <div class="card activities__card amusement-trip">
+          <div class="card activities__card amusement-trip" data-aos="fade-up" data-aos-duration="2400">
             <img src="img/card/activity-3.jpg" alt="Tamarind falls hiking trip - full day" class="card__image">
             <h3 class="card__title">Tamarind falls hiking trip&nbsp;- full day</h3>
             <button data-toggle="modal" class="card__button">Book Now</button>
           </div>
-          <div class="card activities__card amusement-quest">
+          <div class="card activities__card amusement-quest" data-aos="fade-up" data-aos-duration="3000">
             <img src="img/card/activity-4.jpg" alt="The blue marine discovery quest" class="card__image">
             <h3 class="card__title">The blue marine discovery quest</h3>
             <button data-toggle="modal" class="card__button">Book Now</button>
@@ -342,7 +344,7 @@
       <div class="container">
         <div class="footer-wrapper">
           <a href="index.php" class="logo footer__logo">
-            <img src="img/vertical-logo.svg" alt="Logo: Best Tour Plan">
+            <img src="img/vertical-logo.svg" alt="Logo: Best Tour Plan" data-aos="flip-left" data-aos-duration="1000">
           </a>
           <div class="footer__list footer__categories">
             <h3 class="footer__title">All categories</h3>
