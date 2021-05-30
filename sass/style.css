@@ -507,6 +507,7 @@ img {
 .breadcrumb-list__item {
   font-size: 10px;
   line-height: 11px;
+  margin-right: 2px;
 }
 .breadcrumb-list__item:not(:last-child)::after {
   content: "/";
@@ -515,6 +516,9 @@ img {
 .breadcrumb-list__link {
   text-decoration: none;
   color: inherit;
+}
+.breadcrumb-list__link:hover {
+  color: #aaaaaa;
 }
 
 .hotel {
@@ -622,7 +626,7 @@ img {
 .rating {
   max-width: 64px;
   min-height: 45px;
-  padding-top: 4px;
+  padding-top: 3px;
   text-align: center;
   color: #ffffff;
   background-color: #ec1f46;
@@ -639,6 +643,7 @@ img {
 .rating__small {
   font-size: 10px;
   line-height: 13px;
+  margin-left: -4px;
 }
 
 .booking {
@@ -774,11 +779,15 @@ img {
   margin: auto;
 }
 .newsletter-title {
+  display: flex;
+  flex-direction: column;
   color: #ffffff;
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
   line-height: 30px;
+  word-break: break-all;
+  width: 57%;
 }
 .newsletter-title__strong {
   font-size: 36px;
@@ -983,7 +992,7 @@ img {
   display: none;
 }
 .card__title {
-  width: 204px;
+  width: 202px;
   margin-top: auto;
   margin-bottom: 19px;
   padding-left: 2px;
@@ -1146,6 +1155,9 @@ img {
   text-decoration: none;
   color: inherit;
   margin-right: 12px;
+}
+.footer__link:hover {
+  color: cornflowerblue;
 }
 .footer__input {
   width: 100%;
@@ -1665,6 +1677,7 @@ img {
   }
   .navbar-menu {
     flex-direction: column;
+    margin-bottom: 22px;
   }
   .navbar-menu__item {
     margin-bottom: 17px;
@@ -1751,6 +1764,7 @@ img {
   .newsletter-title {
     display: flex;
     flex-direction: column;
+    width: 100%;
     word-break: break-all;
   }
 
@@ -1960,8 +1974,11 @@ img {
     width: 107%;
     margin-bottom: 24px;
   }
-  .footer__contact-form {
-    width: 113%;
+  .footer__input {
+    margin-right: 0;
+  }
+  .footer__input-form {
+    width: 100%;
   }
 
   .modal__dialog {
@@ -2228,10 +2245,14 @@ img {
   .footer__social-links {
     justify-content: flex-start;
     margin-top: 0;
+    margin-left: -3px;
   }
   .footer__link {
     margin-right: 11px;
     margin-left: -3px;
+  }
+  .footer__link-img {
+    margin-right: 10px;
   }
   .footer__contact-details {
     width: 95%;
@@ -2292,6 +2313,10 @@ img {
 
   .modal__dialog {
     min-width: 281px;
+  }
+
+  .navbar-menu {
+    height: 90%;
   }
 }
 

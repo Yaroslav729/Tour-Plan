@@ -118,7 +118,7 @@
           <!-- /.hotel-info__text -->
           <div class="rating hotel-info__rating">
             <span class="rating__text">User Rattings</span>
-            <span class="rating__counter">4.5/ <span class="rating__small">5</span></span>
+            <span class="rating__counter">4.5/ <span class="rating__small"> 5</span></span>
           </div>
           <!-- /.hotel-info__rating -->
         </div>
@@ -377,9 +377,9 @@
           <div class="footer__social-network">
             <h3 class="footer__title footer__title--inline">Social Network</h3>
             <div class="footer__social-links">
-              <a href="https://www.messenger.com/t/jack.malbon.3" target="_blank" class="footer__link"><img src="img/facebook.svg" alt="icon: facebook" class=""></a>
-              <a href="https://youtube.com" target="_blank" class="footer__link"><img src="img/youtube.svg" alt="icon: youtube" class=""></a>
-              <a href="https://instagram.com/armkhi/" target="_blank" class="footer__link"><img src="img/instagram.svg" alt="icon: instagram" class=""></a>
+              <a href="https://www.messenger.com/t/jack.malbon.3" target="_blank" class="footer__link-img hvr-grow"><img src="img/facebook.svg" alt="icon: facebook" class=""></a>
+              <a href="https://youtube.com" target="_blank" class="footer__link-img hvr-grow"><img src="img/youtube.svg" alt="icon: youtube" class=""></a>
+              <a href="https://instagram.com/armkhi/" target="_blank" class="footer__link-img hvr-grow"><img src="img/instagram.svg" alt="icon: instagram" class=""></a>
             </div>
             <!-- /.footer__social-links-->
           </div>
